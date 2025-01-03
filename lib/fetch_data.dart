@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:week_1/provider_data.dart';
 
-final String apiKey = 'b27fb207fe254d45991deff72f2939a8'; // Replace with your API key
+final String apiKey = 'b27fb207fe254d45991deff72f2939a8';
 final String baseUrl = 'https://newsapi.org/v2';
 
 List<String> author = [];

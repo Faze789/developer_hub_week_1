@@ -21,6 +21,11 @@ class _homeState extends State<home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+            onPressed: () {
+              setState(() {});
+            },
+            icon: Icon(Icons.refresh)),
         title: Text('News App', style: GoogleFonts.roboto()),
         centerTitle: true,
       ),
